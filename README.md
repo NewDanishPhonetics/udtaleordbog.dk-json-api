@@ -2,9 +2,11 @@
 
 Udtaleordbog.dk's features a JSON API.
 
-Please note, non-patrons can currently only access words starting with 's' in order to test applications. You must be a patron at https://www.patreon.com/NewDanishPhonetics/ to take full advantage of the API. 
+Please note, you need a personal API key to use the API. API keys are available for patrons at https://www.patreon.com/NewDanishPhonetics/ upon request. 
 
-The API is currently intended for personal use. Currently there is a personal monthly limit of 1,000 requests. Contact me is you need to change the limit.
+Without an API key, you can still access words starting with 's' in order to test applications.
+
+The API is currently intended for personal use. There is a personal monthly limit of 1,000 requests. Contact me is you need to change the limit.
 
 # Usage
 
@@ -19,8 +21,7 @@ It currently has the following structure (more data will be added in the future)
 You need to POST the following variables:
 
 	'q' (Your query)
-	'email' (Your udtaleordbog.dk user email, signup at https://udtaleordbog.dk/signup.php)
-	'password'  (your udtaleordbog.dk user password, signup at https://udtaleordbog.dk/signup.php)
+	'api_key' (Your personal API key) 
 
 The following variables are optional:
 

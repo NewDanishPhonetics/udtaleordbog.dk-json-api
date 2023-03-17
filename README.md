@@ -31,6 +31,8 @@ The following variables are optional:
 	'norm' (The desired pronunciation norm, default=1)
 	Supported norms: 1 = Standard, 2 = Conservative, 3 = Ultra conservative, 4 = Younger
 
+Please note that 2-4 are null unless they are different from 1.
+
 # Example
 
 Refer to the python script example.
